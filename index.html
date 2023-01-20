@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form maker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="head">
+<h1>Form Printer</h1>
+
+    </div>
+    <form action="">
+      <div class="container">
+        <label>Full Name<input id="name" type="text" name="name" required /> </label>
+        <label>E-mail<input id="email" type="email" name="email" required /> </label>
+        <label>Password<input id="password" type="password" name="password" required />
+        </label>
+        <label>Male <input class="gender" type="radio" name="gender"></label>
+        <label>Female<input id="gender" class="gender" type="radio" name="gender"></label>
+        <button id="sub" onclick="btn()">Submit</button>
+      </div>
+    </form>
+    
+
+  <script src="pop.js"></script>
+  </body>
+</html>

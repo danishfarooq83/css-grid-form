@@ -1,0 +1,42 @@
+.container{
+    color:white;
+    display: grid;
+    width:100%;
+    grid-template-columns: 1fr,1fr;
+    grid-template-rows: 1fr,1fr;
+    justify-content:center;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+input{
+    width:80%;
+    height: 10px;
+    padding: 13px 25px 20px 15px;
+}
+#sub{
+    margin-top: 10px;
+    border-radius:8px;
+    height:40px;
+    width:92%;
+
+    
+
+}
+.gender{
+    height:15px;
+    width:15px;
+    margin-left: 20px;
+}
+.head{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    
+    font-size: 30px;
+}
+body{
+    font-family: 'poppins', sans-serif;
+    background-image: url(formbg.jpg);
+    color:white;
+}
